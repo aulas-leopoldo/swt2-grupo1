@@ -22,6 +22,14 @@ void subtrai(int a, int b) {
     }
 }
 
+void divide(int a, int b) {
+  if (b == 0) {
+    printf("Divisão por zero não permitido\n");
+  } else {
+    printf("%d / %d = %.2f\n", a, b, (float)a / b);
+  }
+}
+
 int main()
 {
     char nome[50];
@@ -51,5 +59,8 @@ int main()
            tm_info->tm_sec);
 
     soma(5, 3);
+    divide(10, 2);
+    divide(10, 3);
+    divide(10, 0);
     return 0;
 }
