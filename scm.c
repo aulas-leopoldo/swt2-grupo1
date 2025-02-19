@@ -9,9 +9,25 @@ void multiplica(int a, int b) {
     printf("%d x %d = %d\n", a, b, a * b);
 }
 
+// Nova função "subtrai" criada (por fmh@cin.ufpe.br em 17/02/2025 às 11h00)
+void subtrai(int a, int b) {
+    // Verifica se atende aos requisitos do sistema
+    if (b > a){
+    // Se não atende aos requisitos
+        printf("Atencao: subtracao nao permitida!\n");
+    } else {
+    // Se atende aos requisitos
+        printf("%d - %d = %d\n", a, b, a - b);
+    }
+}
+
 int main() {
     time_t t;
     struct tm *tm_info;
+
+    // Adição de 2 chamadas de função "subtrai" (por fmh@cin.ufpe.br em 17/02/2025 às 11h00)
+    subtrai(5, 3);
+    subtrai(5, 13);
 
     time(&t);
     tm_info = localtime(&t);
