@@ -5,7 +5,7 @@ void soma(int a, int b) { printf("%d + %d = %d\n", a, b, a + b); }
 
 void multiplica(int a, int b) { printf("%d x %d = %d\n", a, b, a * b); }
 
-// Nova função "subtrai" criada (por fmh@cin.ufpe.br em 17/02/2025 às 11h00)
+// Nova função "subtrai" criada (por fmh@cin.ufpe.br em 19/02/2025 às 15h30)
 void subtrai(int a, int b) {
   // Verifica se atende aos requisitos do sistema
   if (b > a) {
@@ -30,8 +30,8 @@ int main() {
   time_t t;
   struct tm *tm_info;
 
-  // Adição de 2 chamadas de função "subtrai" (por fmh@cin.ufpe.br em 17/02/2025
-  // às 11h00)
+  // Adição de 2 chamadas de função "subtrai" (por fmh@cin.ufpe.br em 19/02/2025
+  // às 15h30)
   subtrai(5, 3);
   subtrai(5, 13);
 
