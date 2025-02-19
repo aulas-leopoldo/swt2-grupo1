@@ -1,5 +1,5 @@
 make:
-	gcc scm.c - o scm
+	gcc scm.c -o scm
 
 clean: 
 	rm -f scm
